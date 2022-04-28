@@ -11,12 +11,16 @@
     color: #FAFAFA;
     font-size: 1.5rem;
 }
+a:hover{
+    color: aqua;
+}
 .logo{
     text-transform: uppercase;
     margin-right: 3.125rem;
     font-weight: bold;
     margin-left: 3.875rem;
     font-size: 2rem;
+    color: #fff;
 }
 .List{
     list-style: none;
@@ -52,6 +56,7 @@
     .navbar-section a{
         font-size: 1rem;
     }
+   
     .navbar-section label{
         display: inline-flex;
         align-items: center;

@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*---------*/
+.font-family-1{
+    font-family: 'Open Sans', sans-serif;
+}
+/*---------*/
+/*
+a{
+    text-decoration: none;
+    color: #000;
+}
+ul{
+    list-style-type: none;
+}
+.container{
+    width: 100%;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: transparent;
+    padding: 1rem 0;
+    z-index: 999;
+}
+.navbar .container{
+    justify-content: space-between;
+}
+.site-brand{
+    color: #000;
+    font-size: 2.4rem;
+    font-weight: 600;
+    opacity: 0.95;
+}
+#navbar-show-btn{
+    background: transparent;
+    color: #fff;
+    font-size: 2rem;
+    opacity: 0.9;
+    transition: .3s;
+    border: none;
+}
+#navbar-show-btn:hover{
+    opacity: 1;
+}
+#navbar-collapse{
+    background-color: #1ec6b6;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 100%;
+    padding: 2rem;
+    transform: translateX(100%);
+    transition: .3s;
+}
+.navbar-collapse-rmw{
+    transform: translateX(0)!important;
+}
+.navbar-close-btn{
+    background: none;
+    color: #fff;
+    width: 35px;
+    height: 35px;
+    border-radius: .2rem;
+    font-size: 2rem;
+    transition: .3s;
+    position: absolute;
+    right: 1rem;
+    top: 2rem;
+    border: none;
+}
+#navbar-close-btn:hover{
+    background-color: #fff;
+    color: #1ec6b6;
+}
+.navbar-nav{
+    margin-top: 5rem;
+}
+.nav-item{
+    margin: 1.6rem 0;
+}
+.nav-link{
+    color: #fff;
+    font-size: 1.2rem;
+    transition: .3s;
+}
+.nav-link:hover{
+    opacity: 0.8;
+}
+*/
+
+.image-carousel{
+    max-height: 100vh;
+}

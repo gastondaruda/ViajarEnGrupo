@@ -80,3 +80,14 @@ header{
     display: inline-flex;
     color: #444;
 }
+
+@media screen and (max-width: 768px) {
+    .section_container{
+        flex-direction: column;
+    }
+    .section_container .experiencia{
+        background-color: #444444;
+        height: 6rem;
+        width: 15rem;
+    }
+}

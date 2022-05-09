@@ -41,13 +41,15 @@ a:hover{
         overflow: hidden;
     }
     .logo{
+        margin: 0!important;
         margin-left: .8rem;
+        font-size: 1rem!important;
     }
     .bx-menu{
-        font-size: 2rem;
         color: #fff;
     }
     .List{
+        width: 100%;
         flex-direction: column;
         align-items: center;
         padding: 20px 0 0;

@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.salidasContainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#salidasGrupales{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.salidasContainer-title{
+    margin-top: 2rem;
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: #000;
+}
+.box{
+    position: relative;
+    margin: 1rem;
+}
+.prueba{
+    background-color: black;
+    width: 100%;
+    position: absolute;
+}
+.viaje_title{
+    width: 100%;
+    height: 4.438rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    bottom: -7px;
+    right: 0;
+    color: #fff;
+    font-weight: 700;
+    font-size: 2.375rem;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    text-transform: uppercase;
+    padding-right: 1rem;
+}
+.viaje_img{
+    width: 22rem;
+    min-height: 20.5rem;
+    cursor: pointer;
+    background-size: cover;
+    
+}
+#Cuba,
+#Italia{
+    min-height: 24.75rem;
+}
+#Cuba{
+    width: 42rem; 
+}
+#Italia{
+    width: 27.5rem;
+}
+
+
+.result{
+    background-color: #F0F0F0;
+    width: 80rem;
+    height: 38.188rem;
+    border: 2px solid red;
+    margin: 3rem auto 0;
+    padding: 6rem;
+}
+
+.image_result{
+    min-width: 34.875rem;
+    max-width: 34.875rem;
+    max-width: 24rem;
+    min-height: 24rem;
+}
+.title_result{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48.82px;
+}
+.p_result{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    columns: #000;
+    text-align: justify;
+    margin-left: 4rem;
+}

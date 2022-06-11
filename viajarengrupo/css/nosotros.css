@@ -1,0 +1,95 @@
+.section-nosotros{
+    width: 100%;
+    height: auto;
+}
+
+.section-nosotros .nosotros-container{
+    background-color: #F0F0F0;
+    margin: 6.25rem 4.625rem;
+    height: 38.188rem;
+}
+.nosotros-title{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 4.875rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+
+}
+
+.nosotros-image{
+    height: 28.938rem;
+    margin: 1rem 4.875rem;
+}
+
+.nosotros-p{
+    font-size: 1.25rem;
+    line-height: 24.2px;
+    color: #000;
+    margin: 1rem 5rem;
+    margin-right: 5rem;
+    text-align: justify;
+}
+.servicios-container{
+    height: 38.938rem;
+    width: 100%;
+    background-color: #DDD;
+}
+.servicios-div{
+    width: 100%;
+}
+.servicios-icons{
+    display: flex;
+    flex-direction: row;
+    padding: 3rem 0;
+}
+.icons-div{
+    margin: 0 3rem;
+}
+.image-icon{
+    width: 8.75rem;
+    height: auto;
+}
+.icon-subtitle{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #000;
+    line-height: 29px;
+    margin-top: 3rem;
+}
+
+@media screen and (max-width: 768px) {
+    .section-nosotros .nosotros-container{
+        margin: 1rem;
+        height: auto;
+    }
+    .nosotros-title{
+        padding-left: 0;
+        font-size: 2rem;
+        margin: 1rem auto;
+        justify-content: center;
+    }
+    .nosotros-container-2{
+        flex-direction: column;
+    }
+    .nosotros-image{
+        height: 16rem;
+        margin: 0;
+        border-radius: 12px;
+    }
+    .nosotros-p{
+        font-size: 1rem;
+        margin: 1rem 0rem;
+        padding: 0 2rem;
+    }
+    .servicios-container{
+        height: auto;
+    }
+    .servicios-icons{
+        flex-direction: column;
+    }
+    .icon-subtitle{
+        font-size: 1rem;
+    }
+}

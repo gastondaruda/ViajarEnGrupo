@@ -51,7 +51,6 @@
     min-height: 20.5rem;
     cursor: pointer;
     background-size: cover;
-    
 }
 #Cuba,
 #Italia{
@@ -63,33 +62,146 @@
 #Italia{
     width: 27.5rem;
 }
-
-
 .result{
     background-color: #F0F0F0;
     width: 80rem;
     height: 38.188rem;
-    border: 2px solid red;
     margin: 3rem auto 0;
     padding: 6rem;
+    position: relative;
+    border-radius: 10px;
 }
-
+.image_bg{
+    height: 38.188rem;
+    width: 80rem;
+    z-index: 0;
+    position: absolute;
+    filter: brightness(40%);
+    border-radius: 16px;
+    background-size: contain;
+}
 .image_result{
     min-width: 34.875rem;
-    max-width: 34.875rem;
-    max-width: 24rem;
     min-height: 24rem;
+    max-height: 24rem;
+    z-index: 100;
+    border-radius: 16px;
 }
 .title_result{
+    color: #fff;
     font-weight: 700;
     font-size: 40px;
     line-height: 48.82px;
+    margin-bottom: 2rem;
+    z-index: 100;
+}
+.text-result{
+    color: #fff;
+    z-index: 100;
 }
 .p_result{
     font-weight: 400;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 28px;
     columns: #000;
     text-align: justify;
     margin-left: 4rem;
+}
+.btn-result,
+.delete-btn{
+    width: 13rem;
+    height: 3rem;
+    border-radius: 10px;
+    background-color: #C4C4C4;
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+    border: none;
+    transition: .3s;
+}
+.btn-result:hover,
+.delete-btn:hover,
+#search:hover{
+    background-color: #b3b3b3;
+}
+
+.delete-btn{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.btn-search{
+    flex-direction: row;
+    width: 100%;
+    margin: 0 10rem;
+}
+
+#inputSearch{
+    width: 70%;
+    border-radius: 10px;
+    height: 2.5rem;
+}
+#search{
+    height: 2.5rem;
+    border-radius: 10px;
+    width: 10%;
+    border: none;
+    background-color: #C4C4C4;
+    color: #000;
+}
+.p_subtitle{
+    font-weight: bold;
+    font-size: 22px;
+}
+
+@media screen and (max-width: 768px){
+    .viaje_img{
+        width: 17rem!important;
+        min-height: 12.5rem;
+    }
+    .viaje_title{
+        font-size: 1.4rem;
+    }
+    #Cuba{
+        width: 17rem;
+        min-height: 12.5rem;
+    }
+    .result{
+        width: 100%;
+        padding: 1rem;
+    }
+    .flex{
+        flex-direction: column;
+    }
+    .image_result{
+        width: 17rem!important;
+        min-width: 0!important;
+        min-height: 0!important;
+        max-height: 10rem;
+    }
+    .p_result{
+        font-size: .8rem;
+        margin-left: 0;
+    }
+    #search{
+        width: 70%;
+    }
+    .image_bg{
+        max-width: 100%;
+        height: 100%;
+    }
+    .title_result{
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 1.3rem;
+    }
+    .delete-btn{
+        display: none;
+    }
+    .btn-result{
+        margin-left: 0;
+        font-size: 1rem;
+        width: 10rem;
+    }
 }

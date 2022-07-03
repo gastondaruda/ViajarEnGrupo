@@ -7,16 +7,12 @@
     padding: 15px;
 }
 .navbar-section a{
-    text-transform: uppercase;
     text-decoration: none;
     color: #FAFAFA;
-    font-size: 1rem;
-    transition: .3s;
+    font-size: 1.5rem;
 }
 a:hover{
     color: aqua;
-    text-decoration: underline;
-    text-decoration-color: aqua;
 }
 .logo{
     text-transform: uppercase;

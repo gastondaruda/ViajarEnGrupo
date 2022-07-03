@@ -9,7 +9,6 @@
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/navbar.css">
-    <link rel="stylesheet" href="./css/preguntas.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <title>Viajar En Grupo</title>
 </head>
@@ -23,7 +22,7 @@
                 <ul class="List">
                     <li><a href="#">Inicio</a></li>
                     <li><a href="./Nosotros.html">Nosotros</a></li>
-                    <li><a href="./SalidasGrupales.html">Salidas Grupales</a></li>
+                    <li><a href="#">Salidas Grupales</a></li>
                     <li><a href="#">Contacto</a></li>
                 </ul>
             </div>
@@ -33,14 +32,14 @@
         <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active" data-bs-interval="10000">
-                <img src="./Imagenes/image1.png" class="d-block w-100 carousel-image" alt="...">
+                <img src="./Imagenes/image1.png" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item" data-bs-interval="2000">
-                <img src="./Imagenes/image2.png" class="d-block w-100 carousel-image" alt="...">
+                <img src="./Imagenes/image2.png" class="d-block w-100" alt="...">
               </div>
-              <div class="carousel-item">
-                <img src="http://www.jotace.com.uy/media/k2/items/cache/d722f2a14a84b7ad8053262f61a6106b_XL.jpg" class="d-block w-100 carousel-image" alt="...">
-              </div>
+              <!--<div class="carousel-item">
+                <img src="./Imagenes/thailand1.png" class="d-block w-100" alt="...">
+              </div>-->
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -69,26 +68,16 @@
     </section>
 
 
-    <section class="preguntasFrecuentesContenedor flex column">
-      <h2 class="preguntas_title font-secondary">Preguntas frecuentes</h2>
-      <p class="preguntas_text font-secondary">A continuación, dejamos algunas de las preguntas mas frecuentes de nuestros pasajeros, para que puedas ganar tiempo a la hora de tomar desiciones.</p>
-      <div id="preguntas"></div>
-    </section>
-
-
     <!------------------------------------------>
 
     <footer class="footer">
       <h3 class="footer-title">@VIAJARENGRUPO</h3>
       <div id="year"></div>
-      <a class="" href="tel:+54 9 11 5944 4920">
-        <i class='bx bxl-whatsapp'></i>
-    </a>
+      <i class='bx bxl-whatsapp'></i>
     </footer>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
     <script src="./year.js"></script>
-    <script src="./preguntasFrecuentes.js"></script>
     <script>
         var myCarousel = document.querySelector('#myCarousel')
         var carousel = new bootstrap.Carousel(myCarousel, {

@@ -7,7 +7,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
-    scroll-behavior: smooth;
 }
 
 /*---------*/
@@ -108,9 +107,7 @@ header{
 .footer-title{
     padding: 0 1rem;
 }
-.carousel-image{
-    max-height: 35rem;
-}
+
 @media screen and (max-width: 768px) {
     .section_container{
         flex-direction: column;

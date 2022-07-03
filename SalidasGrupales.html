@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/salidas.css">
+    <link rel="stylesheet" href="./css/navbar.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    <title>Viajar En Grupo</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar-section">
+            <h4 class="logo">Viajarengrupo</h4>
+            <input type="checkbox" id="toggler">
+            <label for="toggler"><i class='bx bx-menu'></i></label>
+            <div class="menu">
+                <ul class="List">
+                    <li><a href="./index.html">Inicio</a></li>
+                    <li><a href="./Nosotros.html">Nosotros</a></li>
+                    <li><a href="#">Salidas Grupales</a></li>
+                    <li><a href="./contact.html">Contacto</a></li>
+                    <a href=""></a>
+                </ul>
+            </div>
+        </nav>
+    </header>
+        <!------------------------------------------>
+        <main class="salidasContainer">
+            <h3 class="salidasContainer-title font-secondary">Salidas grupales</h3>
+            <div class="btn-search flex">
+                <input type="text" id="inputSearch" placeholder="¿Qué lugar buscas?">
+                <button id="search" class="font-secondary">Buscar</button>
+            </div>
+            <div id="resultado"></div>
+            <div id="salidasGrupales" class="salidasGrupales"></div>            
+        </main>        
+        <!------------------------------------------>
+    <footer class="footer">
+        <h3 class="footer-title">@VIAJARENGRUPO</h3>
+        <div id="year"></div>
+        <a class="" href="tel:+54 9 11 5944 4920">
+            <i class='bx bxl-whatsapp'></i>
+        </a>
+    </footer>
+    <script src="./year.js"></script>
+    <script src="./salidasGrupales.js"></script>
+</body>
+</html>

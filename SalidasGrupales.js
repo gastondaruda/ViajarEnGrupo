@@ -64,7 +64,7 @@ function mostrarResultado(e) {
     let viajeFiltrado = viajes.find(item => item.nombre === e);
     div.innerHTML = `
                         <div class="result flex column"><img class="image_bg" src=${viajeFiltrado.img}>
-                            <button class="delete-btn" onclick=eliminarResultado()>Volver atras</button>
+                            <button class="delete-btn button" onclick=eliminarResultado()>Volver atras</button>
                             <h3 class="title_result font-secondary">${viajeFiltrado.nombre.split(/(?=[A-Z])/).join(" ")} - ${viajeFiltrado.country}</h3>
                             <div class="flex">
                                     <img src=${viajeFiltrado.img} class="image_result">

@@ -15,16 +15,16 @@
 </head>
 <body>
     <header>
-        <nav class="navbar-section">
+        <nav class="navbar-section" id="header">
             <h4 class="logo">Viajar en grupo</h4>
             <input type="checkbox" id="toggler">
             <label for="toggler"><i class='bx bx-menu'></i></label>
             <div class="menu">
                 <ul class="List">
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="./Nosotros.html">Nosotros</a></li>
-                    <li><a href="./SalidasGrupales.html">Salidas Grupales</a></li>
-                    <li><a href="./contact.html">Contacto</a></li>
+                    <li><a class="list-item"href="#">Inicio</a></li>
+                    <li><a class="list-item"href="./Nosotros.html">Nosotros</a></li>
+                    <li><a class="list-item"href="./SalidasGrupales.html">Salidas Grupales</a></li>
+                    <li><a class="list-item"href="./contact.html">Contacto</a></li>
                 </ul>
             </div>
         </nav>
@@ -39,7 +39,13 @@
                 <img src="./Imagenes/image2.png" class="d-block w-100 carousel-image" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="http://www.jotace.com.uy/media/k2/items/cache/d722f2a14a84b7ad8053262f61a6106b_XL.jpg" class="d-block w-100 carousel-image" alt="...">
+                <img src="./Imagenes/bg2.png" class="d-block w-100 carousel-image" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./Imagenes/bg3.png" class="d-block w-100 carousel-image" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./Imagenes/bg4.png" class="d-block w-100 carousel-image" alt="...">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
@@ -81,7 +87,7 @@
     <footer class="footer">
       <h3 class="footer-title">@VIAJARENGRUPO</h3>
       <div id="year"></div>
-      <a class="" href="tel:+54 9 11 5944 4920">
+      <a class="" href="https://walink.co/6679ad" target="_blank">
         <i class='bx bxl-whatsapp'></i>
     </a>
     </footer>
@@ -89,6 +95,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
     <script src="./year.js"></script>
     <script src="./preguntasFrecuentes.js"></script>
+    <script src="./navbar.js"></script>
     <script>
         var myCarousel = document.querySelector('#myCarousel')
         var carousel = new bootstrap.Carousel(myCarousel, {

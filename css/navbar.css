@@ -1,10 +1,14 @@
 .navbar-section{
+    width: 100%;
+    position: fixed;
+    top: 0;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    background-color: #000;
     padding: 15px;
+    background: #000;
+    z-index: 1000;
 }
 .navbar-section a{
     text-transform: uppercase;
@@ -12,6 +16,10 @@
     color: #FAFAFA;
     font-size: 1rem;
     transition: .3s;
+    font-weight: 600;
+}
+.navbar-section a .active{
+    color: #fff;
 }
 a:hover{
     color: aqua;
@@ -34,9 +42,15 @@ a:hover{
     margin-right: 8rem!important;
     font-weight: bold;
 }
+.List > .list-item.active{
+    color: #FAFAFA;
+}
 #toggler,
 .navbar-section label{
     display: none;
+}
+.carousel{
+    margin-top: 4rem;
 }
 @media screen and (max-width: 768px){
     .menu{

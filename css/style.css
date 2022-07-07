@@ -81,7 +81,11 @@ header{
     display: inline-flex;
     color: #444;
 }
-
+.button{
+    background: #fff;
+    border-radius: 16px;
+    border: 2px solid red;
+}
 .footer{
     width: 100%;
     height: 400px;
